@@ -1,0 +1,19 @@
+public int insertStudent(Student student){
+        int check = 0;
+        String sql = "insert into student(name, city, mobilenumber) values (?,?,?)";
+        try(
+                //resource block
+                Connection connection = MyDatabase.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(sql);
+                )
+        {
+            preparedStatement.setString(1, student.getStudentName());
+            preparedStatement.setString(2, student.getStudentCity());
+            preparedStatement.setLong(3, student.getStudentMobileNumber());
+            check = preparedStatement.executeUpdate();
+
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+        return check;
+    }
