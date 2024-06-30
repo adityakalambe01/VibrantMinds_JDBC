@@ -1,11 +1,10 @@
-package com.june29_06_2024;
+package com.june29_06_2024.without_using_resource_block;
 
-import com.june29_06_2024.dao.StudentDao;
-import com.june29_06_2024.dao.Table;
-import com.june29_06_2024.entity.Student;
+import com.june29_06_2024.without_using_resource_block.dao.StudentDao;
+import com.june29_06_2024.without_using_resource_block.dao.Table;
+import com.june29_06_2024.without_using_resource_block.entity.Student;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class StudentMain {

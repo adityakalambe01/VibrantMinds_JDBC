@@ -1,4 +1,4 @@
-package com.june29_06_2024.entity;
+package com.june29_06_2024.without_using_resource_block.entity;
 
 public class Student {
     private int studentId;

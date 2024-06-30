@@ -1,7 +1,7 @@
-package com.june29_06_2024.dao;
+package com.june29_06_2024.without_using_resource_block.dao;
 
-import com.june29_06_2024.com.util.MyDatabase;
-import com.june29_06_2024.entity.Student;
+import com.june29_06_2024.without_using_resource_block.com.util.MyDatabase;
+import com.june29_06_2024.without_using_resource_block.entity.Student;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

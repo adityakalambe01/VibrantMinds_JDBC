@@ -1,6 +1,6 @@
-package com.june29_06_2024.dao;
+package com.june29_06_2024.without_using_resource_block.dao;
 
-import com.june29_06_2024.com.util.MyDatabase;
+import com.june29_06_2024.without_using_resource_block.com.util.MyDatabase;
 
 public class Table {
     public static void createStudentTable(){

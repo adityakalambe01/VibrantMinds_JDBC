@@ -1,4 +1,4 @@
-package com.june29_06_2024.com.util;
+package com.june29_06_2024.without_using_resource_block.com.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
